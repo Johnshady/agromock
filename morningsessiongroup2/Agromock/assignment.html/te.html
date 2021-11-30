@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="gif.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mysidenav" class="sidenav">
+        <img src="bxi3.jp" alt="">
+        <h3>Morning Session<h6>Group 2</h6></h3>
+        <h5>Programmers</h5>
+        <a href="javascript:void[0]" class="closebtn" onclick="closeNav()" style="color: yellow;">&times;</a>
+        <a href="product.html">Products</a>
+        <a href="#section1" id="about" onclick="closeNav()">About</a>
+        <a href="sod.html">Product Outline</a>
+    </div>
+
+    <span onclick="openNav()" style="color: whitesmoke; padding-bottom: 20px;">&boxtimes;Menu</span>
+
+    <div id="main">
+
+    </div>
+
+    <script>
+        function openNav(){
+            document.getElementById("mysidenav").style.width = "200px"
+        }
+        
+        function closeNav(){
+            document.getElementById("mysidenav").style.width = "0"
+            document.getElementById("about").style.width = "0"
+        }
+    </script>
+</body>
+</html>

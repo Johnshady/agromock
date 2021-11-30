@@ -1,0 +1,88 @@
+.nite {
+    background-image: url(/plants8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
+p, h1, h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0%;
+    display: block;
+    color: whitesmoke;
+    line-height: normal;
+}
+h1, h2 {
+    font-size: 70px;
+}
+.sweet {
+    background-image: url(/plants7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: block;
+}
+.faith {
+    text-align: center;
+    color: inherit;
+}
+body {
+    color: rgb(248, 248, 255);
+}
+.mean {
+    color:  rgb(239, 239, 245);
+}
+.deal {
+    padding-top: 15%;
+    color: whitesmoke;
+    font-weight: 400;
+    padding-left: 50%;
+}
+h5 {
+    font-size: 40px;
+}
+.klin {
+    padding-top: 10%;
+}
+.sah {
+    width: 25%;
+    margin-left: 500px;
+    height: 25%;
+    position: relative;
+}
+.nav {
+    width: 100vw;
+    height: 20vh;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+}
+.take {
+    text-align: center;
+    text-decoration: none;
+}
+.life {
+    background-image: url(/plants8.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
+.kit {
+    background-image: url(/plants6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
